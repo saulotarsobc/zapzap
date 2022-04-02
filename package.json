@@ -1,0 +1,21 @@
+{
+    "name": "zapzap",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass -w scss/main.scss css/main.min.css --style=compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saulotarsobc/zapzap.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/saulotarsobc/zapzap/issues"
+    },
+    "homepage": "https://github.com/saulotarsobc/zapzap#readme",
+    "description": ""
+}
