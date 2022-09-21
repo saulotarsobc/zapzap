@@ -4,8 +4,7 @@ section#home {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(34, 193, 195);
-    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(166, 101, 232, 1) 100%);
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
 
     /*  */
     #wrap {
@@ -66,7 +65,9 @@ section#home {
     }
 
     #comandos {
-        background-color: rebeccapurple;
+        // background-color: rebeccapurple;
+        background-color: white;
+
         border-radius: 9px;
         display: flex;
         height: 80px;
@@ -83,19 +84,20 @@ section#home {
 
     #link {
         height: 30px;
-        width: 150px;
-        background-color: #fff;
+        width: 180px;
+        background-color: rgb(61, 61, 61);
         text-align: center;
         border-radius: 8px;
-        background-color: rgb(0, 174, 0);
+        background-color: #39fc39;
         display: flex;
         align-items: center;
         justify-content: space-around;
 
         /*  */
         #show_numero {
-            font-size: 12px;
-            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            color:  #3d3d3d;;
         }
 
         svg {
